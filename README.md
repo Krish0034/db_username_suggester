@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # db_username_suggester
 =======
 <!--
@@ -46,4 +46,4 @@ Flutter 3.22.0 • channel stable • https://github.com/flutter/flutter.git
 Framework • revision 5dcb86f68f (5 weeks ago) • 2024-05-09 07:39:20 -0500
 Engine • revision f6344b75dc
 Tools • Dart 3.4.0 • DevTools 2.34.3
->>>>>>> f257c19 (Initial commit: Add README file)
+
