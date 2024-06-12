@@ -1,7 +1,11 @@
 name: db_username_suggester
-description: "A new Flutter package project."
+description: "A Flutter package for suggesting alternative usernames when a given username already exists in the database.
+  This package helps ensure unique usernames by automatically generating and suggesting available alternatives
+  based on the initial username input. It's designed to work seamlessly across all supported platforms, including
+  iOS, Android, and web."
 version: 0.0.1
-homepage:
+author: Krishn Kumar <kri240799@gmail.com>
+homepage: https://github.com/Krish0034/db_username_suggester
 
 environment:
   sdk: '>=3.4.0 <4.0.0'
@@ -10,6 +14,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
   gap: ^3.0.1
 
 dev_dependencies:
@@ -22,6 +27,18 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  plugin:
+    platforms:
+      # Platform-specific configurations for Android
+      android:
+        # The package name for the Android plugin
+        package: com.krish.db_username_suggester
+        # The main class of the Android plugin
+        pluginClass: DbUsernameSuggesterPlugin
+      # Platform-specific configurations for iOS
+      ios:
+        # The main class of the iOS plugin
+        pluginClass: DbUsernameSuggesterPlugin
 
   # To add assets to your package, add an assets section, like this:
   # assets:
