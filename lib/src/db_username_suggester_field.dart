@@ -24,10 +24,8 @@ class DbUsernameSuggesterField extends StatefulWidget {
   final Validator validator;
   final CheckUsernameInDb checkUsernameInDb;
   final bool? obscureText;
-  final bool isInputFormatters;
   final TextInputAction? textInputAction;
   final String? initialText;
-  // final ApiUrl apiUrl;
   final Widget? suffixIcon;
   final EdgeInsets? contentPadding;
   final Widget? prefixIcon;
@@ -56,7 +54,6 @@ class DbUsernameSuggesterField extends StatefulWidget {
     this.obscureText,
     required this.validator,
     required this.checkUsernameInDb,
-    // required this.apiUrl,
     this.onChange,
     this.suffixIcon,
     this.readOnly,
@@ -67,7 +64,6 @@ class DbUsernameSuggesterField extends StatefulWidget {
     this.minLines,
     this.onSubmitted,
     this.inputFormatters,
-    this.isInputFormatters = false,
     this.textInputAction,
     this.initialText,
     this.contentPadding,

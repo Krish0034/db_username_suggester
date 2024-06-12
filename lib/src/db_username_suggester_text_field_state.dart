@@ -59,7 +59,7 @@ class DbUsernameSuggesterTextFieldState extends State<DbUsernameSuggesterField> 
           onFieldSubmitted: widget.onSubmitted ??(value) {},
           validator: widget.validator,
           obscureText:  widget.obscureText ?? false,
-          inputFormatters: widget.isInputFormatters == true ? null :  widget.inputFormatters ?? [],
+          inputFormatters: widget.inputFormatters ?? [],
           autovalidateMode:  widget.autoValidateMode ?? AutovalidateMode.onUserInteraction,
           cursorColor: CommonColors.backButtonColor,
           textInputAction: widget.textInputAction,
@@ -78,7 +78,7 @@ class DbUsernameSuggesterTextFieldState extends State<DbUsernameSuggesterField> 
             isDense: false,
             filled: true,
             fillColor: widget.fillColor ?? CommonColors.whiteColor,
-            hintStyle: CommonTextStyle.normalStyle.copyWith(color: Colors.black),
+            hintStyle: widget.hintTextStyle?? CommonTextStyle.normalStyle.copyWith(color: Colors.black),
             errorStyle: widget.errorTextStyle,
             enabledBorder: OutlineInputBorder(
               borderSide: BorderSide(

@@ -1,4 +1,6 @@
-group = "com.krish.db_username_suggester.db_username_suggester"
+package android
+
+group = "com.krish.db_username_suggester"
 version = "1.0-SNAPSHOT"
 
 buildscript {
@@ -26,7 +28,7 @@ apply plugin: "kotlin-android"
 
 android {
     if (project.android.hasProperty("namespace")) {
-        namespace = "com.krish.db_username_suggester.db_username_suggester"
+        namespace = "com.krish.db_username_suggester"
     }
 
     compileSdk = 34
