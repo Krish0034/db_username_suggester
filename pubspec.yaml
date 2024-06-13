@@ -26,15 +26,18 @@ dev_dependencies:
 flutter:
   plugin:
     platforms:
-      # Platform-specific configurations for Android
       android:
-        # The package name for the Android plugin
         package: com.krish.db_username_suggester
-        # The main class of the Android plugin
         pluginClass: DbUsernameSuggesterPlugin
-      # Platform-specific configurations for iOS
       ios:
-        # The main class of the iOS plugin
+        pluginClass: DbUsernameSuggesterPlugin
+      web:
+        pluginClass: DbUsernameSuggesterPlugin
+      linux:
+        pluginClass: DbUsernameSuggesterPlugin
+      macos:
+        pluginClass: DbUsernameSuggesterPlugin
+      windows:
         pluginClass: DbUsernameSuggesterPlugin
 
   # To add assets to your package, add an assets section, like this:
