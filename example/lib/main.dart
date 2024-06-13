@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:db_username_suggester/db_username_suggester.dart';
@@ -48,7 +49,9 @@ class _MyAppState extends State<MyApp> {
                 },
                 textCapitalization: TextCapitalization.none,
                 onChange: (value) {
-                  print('Username changed: $value');
+                  if (kDebugMode) {
+                    print('Username changed: $value');
+                  }
                 },
                 borderRadius: BorderRadius.circular(10),
                 hintText: "Please Enter Username.",

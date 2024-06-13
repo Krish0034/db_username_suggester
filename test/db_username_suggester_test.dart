@@ -1,4 +1,5 @@
 import 'package:db_username_suggester/src/username_generate_list.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
@@ -10,7 +11,9 @@ void main() {
       for (var username in usernameList) {
         expect(username, contains('john_doe'));
       }
-      print('Generated usernames from email: $usernameList');
+      if (kDebugMode) {
+        print('Generated usernames from email: $usernameList');
+      }
     });
 
     test('Generate username from name', () {
@@ -20,7 +23,9 @@ void main() {
       for (var username in usernameList) {
         expect(username, contains('john_doe'));
       }
-      print('Generated usernames from name: $usernameList');
+      if (kDebugMode) {
+        print('Generated usernames from name: $usernameList');
+      }
     });
 
     test('Generate username with adjectives', () {
@@ -31,7 +36,9 @@ void main() {
       for (var username in usernameList) {
         expect(username, matches(RegExp(r'cool_john_doe|smart_john_doe|happy_john_doe')));
       }
-      print('Generated usernames with adjectives: $usernameList');
+      if (kDebugMode) {
+        print('Generated usernames with adjectives: $usernameList');
+      }
     });
 
     test('Generate username with date', () {
@@ -42,7 +49,9 @@ void main() {
       for (var username in usernameList) {
         expect(username, contains('24'));
       }
-      print('Generated usernames with date: $usernameList');
+      if (kDebugMode) {
+        print('Generated usernames with date: $usernameList');
+      }
     });
 
     test('Generate unique usernames', () {
@@ -50,7 +59,9 @@ void main() {
       expect(usernameList, isNotNull);
       expect(usernameList, isNotEmpty);
       expect(usernameList.toSet().length, usernameList.length);
-      print('Generated unique usernames: $usernameList');
+      if (kDebugMode) {
+        print('Generated unique usernames: $usernameList');
+      }
     });
 
     test('Generate username from email with special characters', () {
@@ -60,7 +71,9 @@ void main() {
       for (var username in usernameList) {
         expect(username, contains('john_doe_test'));
       }
-      print('Generated usernames from email with special characters: $usernameList');
+      if (kDebugMode) {
+        print('Generated usernames from email with special characters: $usernameList');
+      }
     });
   });
 }
