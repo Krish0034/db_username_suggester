@@ -29,7 +29,7 @@ Created By Krishn Kumar (`https://github.com/Krish0034`)
 
 ```yaml
 dependencies:
-  db_username_suggester: ^1.0.0
+  db_username_suggester: ^1.0.0+1
 ```
 2 Then, import the package into your Dart code:
 
