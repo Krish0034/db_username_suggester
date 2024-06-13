@@ -129,6 +129,16 @@ class _MyAppState extends State<MyApp> {
 | ErrorText          | `errorText`             | Error message displayed when the username validation fails.                                  |
 
 
+## Platform Support 🌐
+
+- **Android:** Supported on SDK 16 and above.
+- **iOS:** Supported on iOS 11.0 and above.
+- **Web:** Supported on all modern web browsers.
+- **Linux:** Supported on any Linux distribution.
+- **macOS:** Supported on macOS 10.14 and above.
+- **Windows:** Supported on all Windows versions.
+
+
 ## More information
 
 - **Pub Package:** Provides a direct link to the package page on pub.dev where users can find more detailed information, version history, and installation instructions.
