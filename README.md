@@ -1,31 +1,31 @@
 
-[![Pub Version](https://img.shields.io/badge/pub-v1.0.0-blue?style=flat-square&logo=dart&logoColor=white)](https://pub.dev/packages/example_package)
+[![Pub Version](https://img.shields.io/badge/pub-v1.0.0+1-blue?style=flat-square&logo=dart&logoColor=white)](https://pub.dev/packages/example_package)
+
 # db_username_suggester
 
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A Flutter package for suggesting alternative usernames when a given username already exists in the database. This package helps ensure unique usernames by automatically generating and suggesting available alternatives based on the initial username input. It's designed to work seamlessly across all supported platforms, including iOS, Android, and web.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Suggests alternative usernames if the desired username is taken.
+- Customizable username field widget.
+- Supports asynchronous checks for username availability in the database.
+- Configurable error messages, hints, and styles.
+- Compatible with iOS, Android, and web platforms.
 
-## Getting started
+## Installation 📦
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+1 To use this package, add `db_username_suggester` as a dependency in your `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  db_username_suggester: ^1.0.0
+```
+2 Then, import the package into your Dart code:
+
+```dart
+import 'package:db_username_suggester/db_username_suggester.dart';
+```
 
 ## Usage
 
