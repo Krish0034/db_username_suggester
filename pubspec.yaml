@@ -1,8 +1,7 @@
 name: db_username_suggester
 description: "A Flutter package for suggesting alternative usernames when a given username already exists in the database.
   This package helps ensure unique usernames by automatically generating and suggesting available alternatives
-  based on the initial username input. It's designed to work seamlessly across all supported platforms, including
-  iOS, Android, and web."
+  based on the initial username input."
 version: 1.0.0+1
 homepage: https://github.com/Krish0034/db_username_suggester
 
