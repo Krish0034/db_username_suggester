@@ -101,18 +101,24 @@ class _MyAppState extends State<MyApp> {
 ```
 
 
-## Properties Usage ⚙️
-`DbUsernameSuggesterField`
-`label`: Specifies the label for the username input field.
-`validator`: A function to validate the username input. Returns an error message if the validation fails.
-`checkUsernameInDb`: A function that checks if the username exists in the database. Should return a Future<bool>.
-`textCapitalization`: Defines how the text should be capitalized (e.g., none, words, sentences).
-`onChange`: Callback that gets triggered when the username changes.
-`borderRadius`: Specifies the border radius of the input field.
-`hintText`:Hint text displayed inside the input field when it is empty.
-`hintTextStyle`:Style applied to the hint text.
-`borderColor`: Color of the input field border.
-`errorText`:Error message displayed when the username validation fails.
+### Properties Usage ⚙️
+
+# `DbUsernameSuggesterField`
+
+| Property           | Type                    | Description                                                                                  |
+|--------------------|-------------------------|----------------------------------------------------------------------------------------------|
+| Label              | `label`                 | Specifies the label for the username input field.                                            |
+| Validator          | `validator`             | A function to validate the username input. Returns an error message if the validation fails. |
+| CheckUsernameInDb  | `checkUsernameInDb`     | A function that checks if the username exists in the database. Should return a Future<bool>. |
+| TextCapitalization | `textCapitalization`    | Defines how the text should be capitalized (e.g., none, words, sentences).                   |
+| OnChange           | `onChange`              | Initial or final destination for sliding or fading effects.                                  |
+| BorderRadius       | `borderRadius`          | Specifies the border radius of the input field.                                              |
+| HintText           | `hintText`              | Hint text displayed inside the input field when it is empty.                                 |
+| HintTextStyle      | `hintTextStyle`         | Style applied to the hint text.                                                              |
+| BorderColor        | `borderColor`           | Color of the input field border.                                                             |
+| ErrorText          | `errorText`             | Error message displayed when the username validation fails.                                  |
+
+
 ## Support 🤝🏻
 
     Android: Supported on SDK 16 and above.
@@ -128,9 +134,4 @@ TODO: Tell users more about the package: where to find more information, how to
 contribute to the package, how to file issues, what response they can expect
 from the package authors, and more.
 
-## Flutter Version:
-Flutter 3.22.0 • channel stable • https://github.com/flutter/flutter.git
-Framework • revision 5dcb86f68f (5 weeks ago) • 2024-05-09 07:39:20 -0500
-Engine • revision f6344b75dc
-Tools • Dart 3.4.0 • DevTools 2.34.3
 
