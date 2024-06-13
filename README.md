@@ -29,8 +29,7 @@ import 'package:db_username_suggester/db_username_suggester.dart';
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Here's a simple example that shows how to use the `DbUsernameSuggesterField` widget:
 
 ```dart
 import 'package:flutter/material.dart';
@@ -100,6 +99,28 @@ class _MyAppState extends State<MyApp> {
 }
 
 ```
+
+
+## Properties Usage ⚙️
+`DbUsernameSuggesterField`
+`label`: Specifies the label for the username input field.
+`validator`: A function to validate the username input. Returns an error message if the validation fails.
+`checkUsernameInDb`: A function that checks if the username exists in the database. Should return a Future<bool>.
+`textCapitalization`: Defines how the text should be capitalized (e.g., none, words, sentences).
+`onChange`: Callback that gets triggered when the username changes.
+`borderRadius`: Specifies the border radius of the input field.
+`hintText`:Hint text displayed inside the input field when it is empty.
+`hintTextStyle`:Style applied to the hint text.
+`borderColor`: Color of the input field border.
+`errorText`:Error message displayed when the username validation fails.
+## Support 🤝🏻
+
+    Android: Supported on SDK 16 and above.
+    iOS: Supported on iOS 11.0 and above.
+    Linux: Any Linux distribution.
+    macOS: Supported on macOS 10.14 and above.
+    Web: Supported on all web browsers.
+    Windows: Supported on all Windows versions.
 
 ## Additional information
 
