@@ -1,5 +1,5 @@
 
-[![Pub Version](https://img.shields.io/badge/pub-v1.0.0+2-blue?style=flat-square&logo=dart&logoColor=white)](https://pub.dev/packages/example_package)
+[![Pub Version](https://img.shields.io/badge/pub-v1.0.0+3-blue?style=flat-square&logo=dart&logoColor=white)](https://pub.dev/packages/example_package)
 
 ## db_username_suggester
 
@@ -29,7 +29,7 @@ Created By Krishn Kumar [Krish0034](`https://github.com/Krish0034`)
 
 ```yaml
 dependencies:
-  db_username_suggester: ^1.0.0+2
+  db_username_suggester: ^1.0.0+3
 ```
 2 Then, import the package into your Dart code:
 
