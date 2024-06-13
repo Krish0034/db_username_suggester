@@ -1,9 +1,19 @@
 
 [![Pub Version](https://img.shields.io/badge/pub-v1.0.0+1-blue?style=flat-square&logo=dart&logoColor=white)](https://pub.dev/packages/example_package)
 
-# db_username_suggester
+## db_username_suggester
 
-A Flutter package for suggesting alternative usernames when a given username already exists in the database. This package helps ensure unique usernames by automatically generating and suggesting available alternatives based on the initial username input. It's designed to work seamlessly across all supported platforms, including iOS, Android, and web.
+A Flutter package for suggesting alternative usernames when a given username already exists in the database. This package helps ensure unique usernames by automatically generating and suggesting available alternatives based on the initial username input.
+
+
+---
+
+Created By Krishn Kumar @krish0034
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-F7BA2A?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/krish0034)
+
+
+---
 
 ## Features
 
@@ -103,7 +113,7 @@ class _MyAppState extends State<MyApp> {
 
 ### Properties Usage ⚙️
 
-# `DbUsernameSuggesterField`
+## `DbUsernameSuggesterField`
 
 | Property           | Type                    | Description                                                                                  |
 |--------------------|-------------------------|----------------------------------------------------------------------------------------------|
@@ -119,19 +129,10 @@ class _MyAppState extends State<MyApp> {
 | ErrorText          | `errorText`             | Error message displayed when the username validation fails.                                  |
 
 
-## Support 🤝🏻
+## More information
 
-    Android: Supported on SDK 16 and above.
-    iOS: Supported on iOS 11.0 and above.
-    Linux: Any Linux distribution.
-    macOS: Supported on macOS 10.14 and above.
-    Web: Supported on all web browsers.
-    Windows: Supported on all Windows versions.
+- **Pub Package:** Provides a direct link to the package page on pub.dev where users can find more detailed information, version history, and installation instructions.
+- **Flutter Documentation:** Links to the official Flutter documentation, serving as a resource for general information, guides, and best practices related to Flutter development.
 
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
 
 
