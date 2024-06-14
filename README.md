@@ -8,7 +8,7 @@ A Flutter package for suggesting alternative usernames when a given username alr
 
 ---
 
-Created By Krishn Kumar [Krish0034](`https://github.com/Krish0034`)
+Created By Krishn Kumar [Krish0034](`https://github.com/@Krish0034`)
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-F7BA2A?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/krish0034)
 
